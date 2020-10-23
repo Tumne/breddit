@@ -19,6 +19,8 @@ The #1 Bread Reddit clone on the web (but really just an excuse to use the follo
 - Next.js
 - TypeGraphQL
 - Chakra
+- Vercel
+- Docker
 
 ### Getting started
 
