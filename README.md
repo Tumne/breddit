@@ -14,7 +14,7 @@ The #1 Bread Reddit clone on the web (but really just an excuse to use the follo
 - URQL/Apollo
 - Node.js
 - PostgreSQL
-- MikroORM/TypeORM
+- TypeORM
 - Redis
 - Next.js
 - TypeGraphQL
