@@ -42,7 +42,7 @@ Then you can open up apollo graphql at http://localhost:4000/graphql
 
 NOTE: You will have to configure the `.env` file and `ormconfig.json` with your postgres credentials. In addition, I have provided an easy way to migrate tables and dummy data into your db. In `src/index.ts` uncomment the commented out code to run migration only once.
 
-#### Installation server:
+#### Installation web:
 
 To start frontend, navigate into the `web` folder:
 
