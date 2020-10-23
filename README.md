@@ -22,9 +22,7 @@ The #1 Bread Reddit clone on the web (but really just an excuse to use the follo
 
 ### Getting started
 
-#### Requirements:
-
-Make sure both of these are installed and running in the background:
+Make sure these are installed and/or running in the background:
 
 - node version (10.x || 12.x || 14.x)
 - redis server
