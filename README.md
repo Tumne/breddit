@@ -2,9 +2,9 @@
 
 _Because bread has feelings too ..._ 😢
 
-### Tech Stack
-
 Live website at https://breddit.co/
+
+### Tech Stack
 
 The #1 Bread Reddit clone on the web (but really just an excuse to use the following technologies):
 
@@ -22,7 +22,7 @@ The #1 Bread Reddit clone on the web (but really just an excuse to use the follo
 
 ### Getting started
 
-##### Requirements:
+#### Requirements:
 
 Make sure both of these are installed and running in the background:
 
@@ -30,7 +30,7 @@ Make sure both of these are installed and running in the background:
 - redis server
 - postgres
 
-##### Installation server:
+#### Installation server:
 
 To start backend, navigate into the `server` folder:
 
@@ -44,7 +44,7 @@ Then you can open up apollo graphql at http://localhost:4000/graphql
 
 NOTE: You will have to configure the `.env` file and `ormconfig.json` with your postgres credentials. In addition, I have provided an easy way to migrate tables and dummy data into your db. In `src/index.ts` uncomment the commented out code to run migration only once.
 
-##### Installation server:
+#### Installation server:
 
 To start frontend, navigate into the `web` folder:
 
