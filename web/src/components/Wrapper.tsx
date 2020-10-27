@@ -1,5 +1,6 @@
 import { Box, Heading } from '@chakra-ui/core';
 import React from 'react';
+import NextLink from 'next/link';
 
 export type WrapperVariant = 'small' | 'regular';
 
@@ -19,9 +20,11 @@ export const Wrapper: React.FC<WrapperProps> = ({
       w="100%"
     >
       {variant === 'small' && (
-        <Heading textAlign="center" p={8}>
-          Breddit 🍞
-        </Heading>
+        <NextLink href="/">
+          <Heading cursor="pointer" textAlign="center" p={8}>
+            Breddit 🍞
+          </Heading>
+        </NextLink>
       )}
       {children}
     </Box>

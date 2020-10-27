@@ -27,7 +27,7 @@ export const errorExchange: Exchange = ({ forward }) => (ops$) => {
     tap(({ error }) => {
       if (error) {
         if (error?.message.includes('not authenticated')) {
-          Router.replace('/login');
+          Router.replace('/register');
         }
       }
     })
